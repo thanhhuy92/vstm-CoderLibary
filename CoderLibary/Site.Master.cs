@@ -21,5 +21,13 @@ namespace CoderLibary
             IQueryable<Category> query = _db.Categories;
             return query;
         }
+        protected void Page_PreRender(object sender, EventArgs e)
+        {
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
+        }
     }
 }
