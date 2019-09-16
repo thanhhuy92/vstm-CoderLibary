@@ -111,12 +111,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\success.jpg" />
-    <Content Include="LienHe.aspx" />
+    <Content Include="AddToCart.aspx" />
     <Content Include="App_Data\CoderLibary.mdf" />
     <Content Include="App_Data\CoderLibary_log.ldf">
       <DependentUpon>CoderLibary.mdf</DependentUpon>
     </Content>
+    <Content Include="Images\success.jpg" />
+    <Content Include="LienHe.aspx" />
     <Content Include="BookDetails.aspx" />
     <Content Include="BookList.aspx" />
     <Content Include="Contact.aspx" />
@@ -126,6 +127,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Style.css" />
+    <Content Include="ShoppingCart.aspx" />
     <Content Include="TrangChu.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -182,6 +184,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToCart.aspx.designer.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="LienHe.aspx.cs">
       <DependentUpon>LienHe.aspx</DependentUpon>
@@ -213,6 +222,14 @@
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\CartItem.cs" />
+    <Compile Include="Logic\ShoppingCartActions.cs" />
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
