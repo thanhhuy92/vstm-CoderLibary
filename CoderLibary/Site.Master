@@ -14,6 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Content/Style.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -37,26 +38,37 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+        <div class="logo">
+            <p class="logo-p"><span style="background-color:#ff8c00;">Coder</span> Libary</p>
+            <p class="omb_authTitle logo-right"><a href="#">Đăng Nhập</a> | <a href="#">Đăng Ký</a></p>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Coder Libary</a>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/BookList.aspx">Books</a></li>
+                        <li class="active"><a href="TrangChu.aspx">Trang Chủ</a></li>
+                        <li><a href="LienHe.aspx">Liên Hệ</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                        <li><a href="BookList.aspx">Books</a></li>
                     </ul>
                 </div>
             </div>
+        </nav>
+        <!--******thêm logo*****-->
+        <div id="TitleContent" style="text-align: center">
+            <a runat="server" >
+                <a class="lg" href="TrangChu.aspx"><span style="background-color:#ff8c00;">Coder</span> Libary</a>
+                <%--<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/book_logo.jpg" BorderStyle="None" />--%>
+            </a><br />
         </div>
         <div id="CategoryMenu" style="text-align: center">
             <asp:ListView ID="categoryList"
@@ -71,7 +83,7 @@
                 </ItemTemplate>
                 <ItemSeparatorTemplate> | </ItemSeparatorTemplate>
             </asp:ListView>
-        </div>
+        </div> 
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
