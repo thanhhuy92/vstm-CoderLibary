@@ -111,6 +111,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\success.jpg" />
     <Content Include="LienHe.aspx" />
     <Content Include="App_Data\CoderLibary.mdf" />
     <Content Include="App_Data\CoderLibary_log.ldf">
@@ -211,6 +212,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
