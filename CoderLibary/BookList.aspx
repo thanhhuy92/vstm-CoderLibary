@@ -5,7 +5,7 @@
             <hgroup>
                 <h2><%: Page.Title %></h2>
             </hgroup>
-            <asp:ListView ID="bookList" runat="server" DataKeyNames="BookID" GroupItemCount="4"
+            <asp:ListView ID="bookList" runat="server" DataKeyNames="BookID" GroupItemCount="6"
                 ItemType="CoderLibary.Models.Book" SelectMethod="GetBooks">
                 <EmptyDataTemplate>
                     <table >
@@ -24,12 +24,12 @@
                 </GroupTemplate>
                 <ItemTemplate>
                     <td runat="server">
-                        <table>
+                        <table style="margin:auto;">
                             <tr>
                                 <td>
                                     <a href="BookDetails.aspx?bookID=<%#:Item.BookID%>">
-                                        <img src ="/Images/<%#:Item.ImagePath%>"
-                                            width="150" height="225" style="border:solid" /></a>
+                                        <img src ="/Images/<%#:Item.ImagePath%>" width="150" height="180"
+                                             style="border:solid" /></a>
                                 </td>
                             </tr>
                             <tr>
@@ -41,14 +41,9 @@
                                     </a>
                                     <br />
                                     <span>
-                                        <b>Price: </b><%#:String.Format("{0:c}",Item.UnitPrice)%>
+                                        <b></b><%#:String.Format("{0:c}",Item.UnitPrice)%>
                                     </span>                                    
-                                    <br />
-                                    <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
-                                        <span>                                            
-                                            <b>Add To Cart<b>
-                                        </span>
-                                    </a> 
+                                    <br /> 
                                 </td>
                             </tr>
                             <tr>
@@ -59,7 +54,7 @@
                     </td>
                 </ItemTemplate>
                 <LayoutTemplate>
-                    <table style="width:80%;">
+                    <table style="width: 100%;">
                         <tbody>
                             <tr> 
                                 <td> 
