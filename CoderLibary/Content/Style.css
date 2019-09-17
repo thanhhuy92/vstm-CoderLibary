@@ -1,4 +1,5 @@
 ﻿body {
+    width: 100%;
 }
 
 .logo {
@@ -43,14 +44,23 @@
 }
 
 #CategoryMenu {
-    background-color: #222222;
-    border-radius: 0% 0% 50% 50%;
+    background-color: #FF8C00;
     height: 50px;
+    line-height: 50px;
+    display: flex;
+    margin-top: 2em;
 }
 
     #CategoryMenu a {
         color: #fff;
+        padding: 1em;
+        font-size: 0.8em;
+        margin-left: 1em;
     }
+        #CategoryMenu a:hover {
+            background-color: #ff6600;
+            text-decoration:none;
+        }
 
 #text {
     color: #fff;
@@ -98,3 +108,95 @@
         text-align: justify;
         color: #fff;
     }
+footer {
+    width: 100%;
+    background-color: #FF8C00;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 270px;
+    clear: both;
+}
+
+.footer-box1 {
+    width: 50%;
+    height: 200px;
+    /*border:1px solid #fff;*/
+    float: left;
+}
+
+    .footer-box1 h2 {
+        color: #fff;
+        width: 35%;
+        height: 90px;
+        border-bottom: 1px solid #FFA500;
+        margin-top: 1em;
+        margin-left: 3em;
+        text-align: center;
+        line-height: 90px;
+    }
+
+    .footer-box1 p {
+        width: 80%;
+        height: 35px;
+        /*border:1px solid #fff;*/
+        font-size: 1.1em;
+        margin-left: 3em;
+        color: #fff;
+    }
+
+    .footer-box1 i {
+        margin-right: 0.5em;
+        font-size: 1.2em;
+    }
+
+    .footer-box1 p a {
+        text-decoration: none;
+        color: #FFA500;
+    }
+
+.footer-box2 {
+    width: 45%;
+    height: 250px;
+    /*border:1px solid #fff;*/
+    float: right;
+}
+
+    .footer-box2 h1 {
+        height: 120px;
+        /*border:1px solid #fff;*/
+        text-align: right;
+        color: #fff;
+        line-height: 120px;
+        margin-right: 2.5em;
+    }
+
+    .footer-box2 span {
+        /*border:1px solid #fff;*/
+        background-color: #FFA500;
+    }
+
+    .footer-box2 p {
+        color: #fff;
+        text-align: right;
+        margin-right: 4em;
+        font-size: 1.2em;
+    }
+
+.footer-icon {
+    /*border:1px solid #fff;*/
+    height: 30px;
+    margin-top: 1em;
+    text-align: right;
+    margin-right: 4em;
+}
+
+.footer-box2 i {
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 0.5em;
+    /*border:1px solid #fff;*/
