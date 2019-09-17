@@ -108,15 +108,15 @@
         text-align: justify;
         color: #fff;
     }
-footer {
-    width: 100%;
-    background-color: #FF8C00;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
+#MainContent_bookList_groupPlaceholderContainer td{
+    /*width: 10%;*/
+    margin: auto;
+}
+#MainContent_bookList_groupPlaceholderContainer img {
+    /*height: 180px;*/
 }
 footer {
-    background-color: #333;
+    background-color: #FF8C00;
     width: 100%;
     height: 270px;
     clear: both;
@@ -129,11 +129,11 @@ footer {
     float: left;
 }
 
-    .footer-box1 h2 {
+    .footer-box1 h4 {
         color: #fff;
         width: 35%;
         height: 90px;
-        border-bottom: 1px solid #FFA500;
+        border-bottom: 1px solid;
         margin-top: 1em;
         margin-left: 3em;
         text-align: center;
@@ -156,9 +156,11 @@ footer {
 
     .footer-box1 p a {
         text-decoration: none;
-        color: #FFA500;
+        color: #fff;
     }
-
+    .footer-box1 p a:hover{
+        background-color: #ff6600;
+    }
 .footer-box2 {
     width: 45%;
     height: 250px;
@@ -173,11 +175,6 @@ footer {
         color: #fff;
         line-height: 120px;
         margin-right: 2.5em;
-    }
-
-    .footer-box2 span {
-        /*border:1px solid #fff;*/
-        background-color: #FFA500;
     }
 
     .footer-box2 p {
@@ -196,7 +193,7 @@ footer {
 }
 
 .footer-box2 i {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #fff;
     margin-right: 0.5em;
     /*border:1px solid #fff;*/

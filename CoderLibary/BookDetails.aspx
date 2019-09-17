@@ -16,12 +16,15 @@
                     </td>
                     <td>&nbsp;</td>
                     <td style="vertical-align: top; text-align:left;">
-                        <b>Description:</b><br /><%#:Item.Description %> 
+                        <b>Thong Tin:</b><%#:Item.Description %> 
                         <br />
-                        <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}",Item.UnitPrice) %></span>
+                        <span><b>Don Gia:</b>&nbsp;<%#: String.Format("{0:c}",Item.UnitPrice) %></span>
                         <br />
-                        <span><b>Book Number:</b>&nbsp;<%#:Item.BookID %></span>
+                        <span><b>Ma Sach:</b>&nbsp;<%#:Item.BookID %></span>
                         <br />
+                        <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
+                            <span><b>Thêm Vào Giỏ Hàng<b></span>
+                        </a>
                     </td>
                 </tr>
             </table>

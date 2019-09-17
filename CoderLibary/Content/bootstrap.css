@@ -186,6 +186,7 @@ table {
 td,
 th {
   padding: 0;
+  text-align: center;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -274,6 +275,7 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  color: #FF8C00;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1586,7 +1588,7 @@ pre code {
     padding-left: 15px;
     /*margin-right: auto;
     margin-left: auto;*/
-    background-color: #F5F5F5;
+    background-color: #e6e6e6;
 }
 @media (min-width: 768px) {
   .container {
@@ -3831,6 +3833,7 @@ tbody.collapse.in {
   float: left;
   width: 100%;
   margin-bottom: 0;
+  border: 1px solid #FF8C00;
 }
 .input-group .form-control:focus {
   z-index: 3;
@@ -3972,6 +3975,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
   z-index: 2;
   margin-left: -1px;
+ border: 1px solid #FF8C00;
 }
 .nav {
   padding-left: 0;
