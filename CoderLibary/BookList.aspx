@@ -59,7 +59,7 @@
                     </td>
                 </ItemTemplate>
                 <LayoutTemplate>
-                    <table style="width:100%;">
+                    <table style="width:80%;">
                         <tbody>
                             <tr> 
                                 <td> 

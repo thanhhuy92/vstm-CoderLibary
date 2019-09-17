@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    div id="trangchu">
+    <div id="trangchu">
         <div class="gioithieu">
             <div class="title">
                 <p>Những Câu Hỏi Thường Gặp<p/>

@@ -9,6 +9,9 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    width: 95%;
+    margin: auto;
+    margin-top: 1em;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */

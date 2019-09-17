@@ -25,7 +25,7 @@ namespace CoderLibary
         {
             using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
             {
-                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                string cartStr = string.Format("Gio Hang ({0})", usersShoppingCart.GetCount());
                 cartCount.InnerText = cartStr;
             }
         }
