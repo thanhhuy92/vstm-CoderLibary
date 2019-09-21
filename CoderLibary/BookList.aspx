@@ -29,7 +29,7 @@
                                 <td>
                                     <a href="BookDetails.aspx?bookID=<%#:Item.BookID%>">
                                         <img src ="/Images/<%#:Item.ImagePath%>" width="150" height="180"
-                                             style="border:solid" /></a>
+                                             style="border: 0.5em solid #fff" /></a>
                                 </td>
                             </tr>
                             <tr>

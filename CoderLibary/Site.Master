@@ -92,7 +92,6 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
             <footer>
                 <div class="footer-box1">
                     <h4>Liên hệ với chúng tôi</h4><br />
