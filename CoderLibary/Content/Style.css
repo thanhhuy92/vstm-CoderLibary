@@ -115,11 +115,15 @@
 #MainContent_bookList_groupPlaceholderContainer img {
     /*height: 180px;*/
 }
+.btncart:hover{
+    text-decoration: none;
+}
 footer {
     background-color: #FF8C00;
     width: 100%;
     height: 270px;
     clear: both;
+    border-top: 1em solid #fff;
 }
 
 .footer-box1 {
