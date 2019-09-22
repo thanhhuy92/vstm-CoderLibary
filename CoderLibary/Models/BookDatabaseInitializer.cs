@@ -21,7 +21,7 @@ namespace CoderLibary.Models
                 new Category
                 {
                     CategoryID = 1,
-                    CategoryName = "ProGram"
+                    CategoryName = "Lập Trình"
                 },
                 new Category
                 {
@@ -36,7 +36,7 @@ namespace CoderLibary.Models
                 new Category
                 {
                     CategoryID = 4,
-                    CategoryName = "Graphics"
+                    CategoryName = "Đồ Họa"
                 }
             };
             return categories;
@@ -50,20 +50,20 @@ namespace CoderLibary.Models
                 new Book
                 {
                     BookID = 1,
-                    BookName = "ProGram C++",
-                    Description = "Basic ProGram",
+                    BookName = "Lập Trình C++",
+                    Description = "Lập Trình C++ cơ bản",
                     ImagePath ="sachltc.jpg",
-                    UnitPrice = 4f,
+                    UnitPrice = 82.205f,
                     CategoryID = 1
                 },
                 //book 2 
                 new Book
                 {
                     BookID = 2,
-                    BookName = "ProGram C#",
-                    Description = "Basic ProGram",
+                    BookName = "Lập Trình C#",
+                    Description = "Lập Trình C# Cơ Bản",
                     ImagePath ="sachltcsharp.jpg",
-                    UnitPrice = 4.05f,
+                    UnitPrice = 75.005f,
                     CategoryID = 1
                 },
                 //book 3 
@@ -71,9 +71,9 @@ namespace CoderLibary.Models
                 {
                     BookID = 3,
                     BookName = "HTML5 & CSS3",
-                    Description = "Basic WebSite",
+                    Description = "WebSite Cơ Bản",
                     ImagePath ="htmlvacss.jpg",
-                    UnitPrice = 6f,
+                    UnitPrice = 96.005f,
                     CategoryID = 2
                 },
                 //book 4 
@@ -83,7 +83,7 @@ namespace CoderLibary.Models
                     BookName = "JavaScript",
                     Description = "Advanced WebSite",
                     ImagePath ="javascript.jpg",
-                    UnitPrice = 7f,
+                    UnitPrice = 105.005f,
                     CategoryID = 2
                 },
                 //book 5 
@@ -93,7 +93,7 @@ namespace CoderLibary.Models
                     BookName = "CCNA",
                     Description = "Basic Network Security",
                     ImagePath ="ccna.jpg",
-                    UnitPrice = 8f,
+                    UnitPrice = 124.005f,
                     CategoryID = 3
                 },
                 //book 6 
@@ -103,27 +103,27 @@ namespace CoderLibary.Models
                     BookName = "MCSA",
                     Description = "Advanced Network Security",
                     ImagePath ="mcsa.png",
-                    UnitPrice = 9f,
+                    UnitPrice = 155.005f,
                     CategoryID = 3
                 },
                 //book 7 
                 new Book
                 {
                     BookID = 7,
-                    BookName = "Basic Photoshop",
-                    Description = "Basic Photoshop",
+                    BookName = "Photoshop Cơ Bản",
+                    Description = "Photoshop Cơ Bản",
                     ImagePath ="ptscoban.png",
-                    UnitPrice = 10f,
+                    UnitPrice = 66.005f,
                     CategoryID = 4
                 },
                 //book 8 
                 new Book
                 {
                     BookID = 8,
-                    BookName = "Advanced Photoshop",
-                    Description = "Advanced Photoshop",
+                    BookName = "Photoshop nâng cao",
+                    Description = "Photoshop nâng cao",
                     ImagePath ="ptsnangcao.png",
-                    UnitPrice = 11f,
+                    UnitPrice = 81.005f,
                     CategoryID = 4
                 },
             };
