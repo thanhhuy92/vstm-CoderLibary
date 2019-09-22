@@ -15,13 +15,13 @@
                     <td style="vertical-align: top; text-align:left; width: 40%">
                         <h1><%#:Item.BookName %></h1>
                         <hr/>
-                        <b>Thong Tin:</b><%#:Item.Description %>
+                        <b>Thông Tin:</b><%#:Item.Description %>
                         <br />
                         <hr />
-                        <span><b>Don Gia:</b>&nbsp;<%#: String.Format("{0:c}",Item.UnitPrice) %></span>
+                        <span><b>Giá:</b>&nbsp;<%#: String.Format("{0:c}",Item.UnitPrice) %></span>
                         <br />
                         <hr />
-                        <span><b>Ma Sach:</b>&nbsp;<%#:Item.BookID %></span>
+                        <span><b>Mã Sách:</b>&nbsp;<%#:Item.BookID %></span>
                         <br />
                         <hr />
                         <a class="btncart" href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
