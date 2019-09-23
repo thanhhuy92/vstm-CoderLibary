@@ -47,13 +47,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" rel="home" href="BookList.aspx" title="">CoderLibary</a>
+                <a class="navbar-brand" rel="home" href="TrangChu.aspx" title="">CoderLibary</a>
             </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
 
             <ul class="nav navbar-nav">
-                <li><a runat="server" href="ShoppingCart.aspx" id="cartCount">Giỏ Hàng</a></li>
+                <li><a runat="server" href="~/BookList.aspx">Sách</a></li>
+                <li><a runat="server" href="ShoppingCart.aspx" id="cartCount"></a></li>
             </ul>
 
         <%--<div class="col-sm-3 col-md-3 pull-right">--%>
@@ -102,7 +103,7 @@
         </div>
         <footer>
                 <div class="footer-box1">
-                    <h4>Liên hệ với chúng tôi</h4><br />
+                    <h4>Liên hệ</h4><br />
                     <p><i class="fa fa-map-marker"></i>2 Ngô Đến, Vĩnh Phước, Nha Trang</p>
                     <p><i class="fa fa-phone-square"></i>Phone: 0782660551</p>
                     <p><i class="fa fa-envelope-o"></i>Email: <a href="/">thanhhuyctt11cd3a@gmail.com</a></p>

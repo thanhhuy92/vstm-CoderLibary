@@ -126,6 +126,76 @@ namespace CoderLibary.Models
                     UnitPrice = 81.005f,
                     CategoryID = 4
                 },
+                //book 9 
+                new Book
+                {
+                    BookID = 9,
+                    BookName = "Lập Trình Android",
+                    Description = "Lập Trình Android",
+                    ImagePath ="ltandroid.jpg",
+                    UnitPrice = 77f,
+                    CategoryID = 1
+                },
+                //book 10 
+                new Book
+                {
+                    BookID = 10,
+                    BookName = "Lập Trình Hướng Đối Tượng JAVA Core",
+                    Description = "Lập Trình Java",
+                    ImagePath ="lthdtjavacore.png",
+                    UnitPrice = 60f,
+                    CategoryID = 1
+                },
+                //book 11 
+                new Book
+                {
+                    BookID = 11,
+                    BookName = "Java Cơ Bản",
+                    Description = "Lập Trình Java",
+                    ImagePath ="ltjavacoban.jpg",
+                    UnitPrice = 69f,
+                    CategoryID = 1
+                },
+                //book 12 
+                new Book
+                {
+                    BookID = 12,
+                    BookName = "Giáo Trình Ngôn Ngữ Lập Trình Pascal",
+                    Description = "Lập Trình Pascal",
+                    ImagePath ="ltpascal.jpg",
+                    UnitPrice = 30f,
+                    CategoryID = 1
+                },
+                //book 13 
+                new Book
+                {
+                    BookID = 13,
+                    BookName = "Lập Trình với Scratch 3.0",
+                    Description = "Lập Trình",
+                    ImagePath ="ltscratch.jpg",
+                    UnitPrice = 38f,
+                    CategoryID = 1
+                },
+                //book 14 
+                new Book
+                {
+                    BookID = 14,
+                    BookName = "Phổ Cập Lập Trình vs Swift",
+                    Description = "Lập Trình",
+                    ImagePath ="phocapltswift.png",
+                    UnitPrice = 51f,
+                    CategoryID = 1
+                },
+                //book 15 
+                new Book
+                {
+                    BookID = 15,
+                    BookName = "Sổ Tay Lập Trình CNC",
+                    Description = "Lập Trình",
+                    ImagePath ="sotayltcnc.jpg",
+                    UnitPrice = 71f,
+                    CategoryID = 1
+                },
             };
             return books;
         }

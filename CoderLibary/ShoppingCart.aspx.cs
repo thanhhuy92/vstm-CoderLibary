@@ -30,6 +30,7 @@ namespace CoderLibary
                     lblTotal.Text = "";
                     ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
                     UpdateBtn.Visible = false;
+                    ChonBtn.Visible = false;
                 }
             } 
         }
