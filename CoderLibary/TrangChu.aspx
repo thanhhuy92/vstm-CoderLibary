@@ -1,24 +1,78 @@
 ﻿<%@ Page Title="Welcome" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TrangChu.aspx.cs" Inherits="CoderLibary._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<div class="container" style="width: 90%;margin:auto;padding-top:1em;padding-bottom:1em;">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+     </ol>
 
-    <div id="trangchu">
-        <div class="gioithieu">
-            <div class="title">
-                <p>Những Câu Hỏi Thường Gặp<p/>
-            </div>
-            <div class="noidung">
-                <h4>**Lập trình là gì?</h4><br />
-                <p>Để làm nghề lập trình, trước hết các bạn phải hiểu thế nào là lập trình viên. Lập trình viên là người thiết kế, xây dựng và bảo trì các chương trình máy tính (phần mềm). Bằng cách thao tác các đoạn mã (các ngôn ngữ) trên các công cụ lập trình, họ có thể tạo ra các chương trình mới, sửa lỗi hay nâng cấp chương trình đó để tăng tính hiệu quả của việc sử dụng máy tính.
-Các lập trình viên thường có thể làm việc trên nhiều ngôn ngữ lập trình, trong đó chủ yếu là lập trình web Java, C++, php, Asp, ASP.Net, Visual Basic.Net và C#.</p><br /><br />
-            </div>
-            <div class="noidung">
-                <h4>**Học lập trình có cần quá thông minh?</h4><br />
-                <p>Như tiêu đề, một vấn đề nan giải và cũng là câu hỏi của nhiều người mới bước chân vào học lập trình. Có nhất thiết bạn cần phải quá thông minh để có thể học lập trình? Câu trả lời là “Hoàn toàn không!”. Nguyên nhân vì sao thì hãy cùng nhau đọc tiếp bên dưới.</p><br />
-                <p>Theo mình tìm hiểu thì cho đến nay trong ngành lập trình không có khái niệm nào nói rằng người học phải đạt được sự thông minh ở cấp độ nào thì mới có thể hiểu được. Để học lập trình thì chỉ cần bạn là một người bình thường (IQ >= 85), có một chiếc máy tính (kết nối mạng càng tốt), một vài cuốn sách và một quyết tâm sắt đá.</p><br />
-                <img src="Images/success.jpg"/><br /><br />
-                <p>Có phải đơn giản quá không, thực sự là không đơn giản vậy. Nói ngắn gọn để cho các bạn khỏi hoang mang chứ học lập trình thì cũng có những cái khó của nó. Đầu tiên hãy tìm hiểu vì sao bạn thấy nó khó.</p><br />
-            </div>
-        </div>
+    <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+      <div class="item active">
+        <img src="Images/img-carousel1.jpg" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="Images/img-carousel2.jpg" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="Images/img-carousel3.jpg" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="Images/img-carousel4.jpg" alt="" style="width:100%;">
+      </div>
     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div style="float:left;margin-top:3em;margin-left:4em;">
+    <p style="font-weight:bold;font-size:1.2em;">VỀ CÔNG TY</p>
+    <p>Giới thiệu công ty</p>
+    <p>Tuyển dụng</p>
+    <p>Góc báo chí</p>
+    <p>Chương trình đại lý</p>
+    <p>Chính sách bảo mật</p>
+</div>
+<div style="float:left;margin-top:3em;margin-left:4em;">
+    <p style="font-weight:bold;font-size:1.2em;">TRỢ GIÚP</p>
+    <p>Quy định sử dụng</p>
+    <p>Hướng dẫn mua hàng</p>
+    <p>Phương thức thanh toán</p>
+    <p>Phương thức vận chuyển</p>
+    <p>Các câu hỏi thường gặp</p>
+    <p>Bọc sách bằng bìa Plastic</p>
+</div>
+<div style="float:left;width:15%;margin-top:3em;margin-left:4em;">
+    <p style="font-weight:bold;font-size:1.2em;">CHẤP NHẬN THANH TOÁN</p>
+    <img src="Images/atm.jpg" />
+    <img src="Images/cod.jpg"/>
+    <img src="Images/jcb.jpg"/>
+    <img src="Images/payoo.jpg" />
+    <img src="Images/visa.jpg" />
+    <img src="Images/master_card.jpg" />
+</div>
+<div style="float:left;width:15%;margin-top:3em;margin-left:4em;">
+    <p style="font-weight:bold;font-size:1.2em;">ĐỐI TÁC VẬN CHUYỂN</p>
+    <img src="Images/vn-post.jpg" />
+    <img src="Images/dhl.jpg" />
+</div>
+<div style="float:left;width:15%;margin-top:3em;margin-left:4em;">
+    <p style="font-weight:bold;font-size:1.2em;">ĐỐi TÁC BÁN HÀNG</p>
+    <img src="Images/amazon.jpg" />
+    <img src="Images/lazada.jpg" />
+    <img src="Images/shopee.jpg" />
+</div>
 </asp:Content>

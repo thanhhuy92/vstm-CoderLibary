@@ -116,7 +116,29 @@
     <Content Include="App_Data\CoderLibary_log.ldf">
       <DependentUpon>CoderLibary.mdf</DependentUpon>
     </Content>
+    <Content Include="Images\amazon.jpg" />
+    <Content Include="Images\atm.jpg" />
+    <Content Include="Images\cod.jpg" />
+    <Content Include="Images\dhl.jpg" />
+    <Content Include="Images\img-carousel1.jpg" />
+    <Content Include="Images\img-carousel2.jpg" />
+    <Content Include="Images\img-carousel3.jpg" />
+    <Content Include="Images\img-carousel4.jpg" />
+    <Content Include="Images\jcb.jpg" />
+    <Content Include="Images\lazada.jpg" />
+    <Content Include="Images\ltandroid.jpg" />
+    <Content Include="Images\lthdtjavacore.png" />
+    <Content Include="Images\ltjavacoban.jpg" />
+    <Content Include="Images\ltpascal.jpg" />
+    <Content Include="Images\ltscratch.jpg" />
+    <Content Include="Images\master_card.jpg" />
+    <Content Include="Images\payoo.jpg" />
+    <Content Include="Images\phocapltswift.png" />
+    <Content Include="Images\shopee.jpg" />
+    <Content Include="Images\sotayltcnc.jpg" />
     <Content Include="Images\success.jpg" />
+    <Content Include="Images\visa.jpg" />
+    <Content Include="Images\vn-post.jpg" />
     <Content Include="LienHe.aspx" />
     <Content Include="BookDetails.aspx" />
     <Content Include="BookList.aspx" />
