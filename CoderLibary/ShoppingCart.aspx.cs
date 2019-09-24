@@ -28,9 +28,8 @@ namespace CoderLibary
                 {
                     LabelTotalText.Text = "";
                     lblTotal.Text = "";
-                    ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
+                    ShoppingCartTitle.InnerText = "Giỏ Hàng Đang Trống";
                     UpdateBtn.Visible = false;
-                    ChonBtn.Visible = false;
                 }
             } 
         }

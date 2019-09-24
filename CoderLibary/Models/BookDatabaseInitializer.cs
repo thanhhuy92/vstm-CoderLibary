@@ -140,7 +140,7 @@ namespace CoderLibary.Models
                 new Book
                 {
                     BookID = 10,
-                    BookName = "Lập Trình Hướng Đối Tượng JAVA Core",
+                    BookName = "Lập Trình HĐT JAVA Core",
                     Description = "Lập Trình Java",
                     ImagePath ="lthdtjavacore.png",
                     UnitPrice = 60f,
@@ -160,7 +160,7 @@ namespace CoderLibary.Models
                 new Book
                 {
                     BookID = 12,
-                    BookName = "Giáo Trình Ngôn Ngữ Lập Trình Pascal",
+                    BookName = "GT Ngôn Ngữ LT Pascal",
                     Description = "Lập Trình Pascal",
                     ImagePath ="ltpascal.jpg",
                     UnitPrice = 30f,
@@ -180,7 +180,7 @@ namespace CoderLibary.Models
                 new Book
                 {
                     BookID = 14,
-                    BookName = "Phổ Cập Lập Trình vs Swift",
+                    BookName = "Phổ Cập LT vs Swift",
                     Description = "Lập Trình",
                     ImagePath ="phocapltswift.png",
                     UnitPrice = 51f,
