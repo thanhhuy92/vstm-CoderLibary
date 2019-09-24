@@ -96,7 +96,7 @@
                 <%--<ItemSeparatorTemplate> | </ItemSeparatorTemplate>--%>
             </asp:ListView>
         </div> 
-        <div class="container body-content">
+        <div class="container body-content" style="padding-bottom:1em;">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             
