@@ -1,7 +1,7 @@
 # WebSite Thương Mại CoderLibary
 
 * WebSite CoderLibary được xây dựng bằng ASP.NET, là WebSite bán hàng về các mặt hàng Sách và đa số là sách ngành Công Nghệ Thông Tin.<br/>
-* Và sau đây tôi sẽ trình bày cấu trúc WebSite CoderLibary.
+* Và sau đây là cấu trúc của WebSite CoderLibary.
 * WebSite CoderLibary gồm 3 trang chính là Trang Chủ, Sách và Giỏ Hàng.
 
 <img src="img-project/img-project.jpg"/>
