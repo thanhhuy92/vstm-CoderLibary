@@ -30,3 +30,11 @@
 
 * Và người dùng muốn xóa sách khi đã chọn thì người dùng sẽ tích vào sách muốn xóa ở cột Xóa Sách và cuối cùng là click vào nut "Cập Nhật Giỏ Hàng".
 <img src="img-project/img-project9.jpg"/>
+
+# Dữ Liệu WebSite Thương Mại CoderLibary
+
+* Gồm có 2 bảng Book và Category
+
+<img src="img-project/img-project10.jpg"/>
+
+<img src="img-project/img-project11.jpg"/>
